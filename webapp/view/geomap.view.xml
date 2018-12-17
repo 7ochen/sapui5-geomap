@@ -1,0 +1,34 @@
+<mvc:View controllerName="test.geomap.controller.geomap" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns:vbm="sap.ui.vbm" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<vbm:GeoMap id="GeoMap" initialZoom="3">
+<!--						<vbm:resources>
+							<vbm:Resource name="PinGreen.png" src="/images/pin/green_pin.png"/>
+							<vbm:Resource name="PinOrange.png" src="/images/pin/orange_pin.png"/>
+							<vbm:Resource name="PinRed.png" src="/images/pin/red_pin.png"/>
+							<vbm:Resource name="PinGrey.png" src="/images/pin/grey_pin.png"/>
+						</vbm:resources>
+						<vbm:vos>
+							<vbm:Spots id="shopSpots" items="{/SHOP}">
+								<vbm:items>
+									<vbm:Spot id="SAPSpot" click="onClickSpot" text="{PRICE}円" type="{PROB_TYPE}"/>
+								</vbm:items>
+							</vbm:Spots>
+						</vbm:vos>
+						<vbm:legend>
+							<vbm:Legend id="legend" caption="凡例">
+								<vbm:LegendItem text="Success" image="PinGreen.png" semanticSpotType="Success"/>
+								<vbm:LegendItem text="Warning" image="PinOrange.png" semanticSpotType="Warning"/>
+								<vbm:LegendItem text="Error"   image="PinRed.png" semanticSpotType="Error"/>
+								<vbm:LegendItem text="Default" image="PinGrey.png" semanticSpotType="Default"/>
+							</vbm:Legend>
+						</vbm:legend>-->
+					</vbm:GeoMap>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
