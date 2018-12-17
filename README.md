@@ -1,2 +1,2 @@
 # sapui5-geomap
-Basic GeoMap with SAPUI5
+Basic GeoMap using OSM(Open Street Map) with SAPUI5
