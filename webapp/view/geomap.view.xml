@@ -4,7 +4,7 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<vbm:GeoMap id="GeoMap" initialZoom="3"> 
+					<vbm:GeoMap id="GeoMap" initialZoom="3">
 <!--						<vbm:resources>
 							<vbm:Resource name="PinGreen.png" src="/images/pin/green_pin.png"/>
 							<vbm:Resource name="PinOrange.png" src="/images/pin/orange_pin.png"/>
